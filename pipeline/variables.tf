@@ -9,7 +9,7 @@ provider "aws" {
 }
 
 variable "lambda_file" {
-  default = "../build/local-build-api.zip"
+  default = "./build/local-build-api.zip"
 }
 
 variable "stage" {
