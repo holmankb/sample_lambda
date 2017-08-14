@@ -1,6 +1,6 @@
 #Variable for this file, used to determine when apig changes are made to redeploy the api gateway stage
 variable "apiGatewayTerraformFile" {
-  default = "./api-gateway.tf"
+  default = "./pipeline/api-gateway.tf"
 }
 
 #API Gateway config
