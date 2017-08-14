@@ -3,7 +3,7 @@ jobs:
   build:
     docker:
       # specify the version you desire here
-      - image: nikengp/node6:v0.1
+      - image: nikengp/node6:v0.2
 
       # Specify service dependencies here if necessary
       # CircleCI maintains a library of pre-built images
