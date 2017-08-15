@@ -28,12 +28,8 @@ variable "role_name" {
   default = "SampleCircleRole"
 }
 
-##
-# Remote Root
-##
-data "terraform_remote_state" "root" {
-  backend = "s3"
-  config {
+terraform {
+  backend "s3" {
     bucket = "ngp-terraform-remote-config"
     key    = "circle_demo"
     region = "us-west-2"
